@@ -1,0 +1,197 @@
+.SUBSCRIBE {
+  background-color: rgb(200, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: progress;
+  margin-right: 8px;
+  transition: opacity 0.2s;
+}
+.SUBSCRIBE:hover {
+  opacity: 0.8;
+}
+.SUBSCRIBE:active {
+  opacity: 0.5;
+}
+
+.JOIN {
+  background-color: aliceblue;
+  color: rgb(10, 102, 194);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 2px;
+  cursor: cell;
+  margin-right: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.JOIN:hover {
+  background-color: rgb(10, 102, 194);
+  color: antiquewhite;
+}
+.JOIN:active {
+  opacity: 0.7;
+}
+
+.Tweet {
+  background-color: rgb(18, 108, 226);
+  color: whitesmoke;
+  height: 36px;
+  width: 74;
+  border-radius: 18px;
+  border: none;
+  cursor: crosshair;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 8px;
+  transition: box-shadow 0.2s;
+}
+
+.Tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Req {
+  width: 110px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 8px;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.Req:hover {
+  opacity: 0.8;
+}
+.Req:active {
+  opacity: 0.5;
+}
+
+.amazon {
+  width: 140px;
+  height: 30px;
+  background-color: rgba(255, 216, 20);
+  border: none;
+  border-radius: 18px;
+  font-weight: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.amazon:hover {
+  background-color: rgb(245, 205, 3);
+}
+.amazon:active {
+  cursor: not-allowed;
+}
+
+.git {
+  width: 90px;
+  height: 36px;
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+.git:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+}
+.git:active {
+  cursor: cell;
+}
+
+.linkedin {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s;
+}
+.linkedin:hover {
+  background-color: rgb(2, 70, 138);
+}
+.linkedin:active {
+  cursor: text;
+}
+
+.save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+.save:hover {
+  background-color: rgb(226, 240, 254);
+  border-width: 2px;
+}
+.save:active {
+  cursor: progress;
+}
+
+.getStarted {
+  color: white;
+  background-color: rgb(121, 82, 179);
+  width: 110px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.getStarted:hover {
+  background-color: rgb(99, 60, 156);
+}
+
+.download {
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  background-color: white;
+  width: 110px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  transition: color 0.2s;
+}
+.download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GridPractise</title>
+  </head>
+
+  <body style="padding-bottom: 1000px;">
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px;
+      "
+    >
+      <div style="background-color: lightskyblue">div1</div>
+      <div style="background-color: pink">
+        div2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+      "
+    >
+      <div style="background-color: lightskyblue">100px</div>
+      <div style="background-color: pink">
+        100px
+        <p>txt</p>
+      </div>
+      <div style="background-color: lightskyblue">200px</div>
+      <div style="background-color: pink">100px</div>
+    </div>
+
+    <div
+      style="margin-top: 30px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: lightskyblue">100px</div>
+      <div style="background-color: pink">1fr</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+      "
+    >
+      <div style="background-color: lightskyblue">100px</div>
+      <div style="background-color: pink">1fr</div>
+      <div style="background-color: lightskyblue">2fr</div>
+    </div>
+
+    <div
+    style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    "
+  >
+    <div style="background-color: lightskyblue; height: 200px;">1fr</div>
+    <div style="background-color: pink">1fr</div>
+    <div style="background-color: lightskyblue">1fr</div>
+    <div style="background-color: pink">1fr</div>
+    <div style="background-color: lightskyblue; height: 200px;">1fr</div>
+    <div style="background-color: pink">1fr</div>
+  </div>
+  </body>
+</html>

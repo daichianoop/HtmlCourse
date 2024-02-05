@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Property</title>
+    <style>
+      .Name,
+      .Email {
+        display: block;
+        margin-top: 5px;
+      }
+      .Email {
+        margin-bottom: 100px;
+      }
+      p {
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+        margin-bottom: 100px;
+        margin-top: 0px;
+      }
+      button {
+        vertical-align: middle;
+        margin-bottom: 100px;
+      }
+      .Google {
+        display: block;
+        width: 200px;
+        margin-left: 150px;
+        margin-bottom: 10px;
+      }
+      .searchbar {
+        width: 500px;
+        margin-bottom: 100px;
+        display: block;
+        border: none;
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 15px;
+        transition: background-color 0.2s;
+      }
+      .searchbar:hover {
+        background-color: whitesmoke;
+      }
+      .lastname,
+      .firstname {
+        width: 100px;
+        display: inline-block;
+        height: 30px;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: rgb(151, 151, 151);
+        padding-left: 10px;
+      }
+      .emailline {
+        display: block;
+        height: 30px;
+        margin-top: 10px;
+        width: 218px;
+        border-radius: 8px;
+        border-width: 1px;
+        border-color: rgb(151, 151, 151);
+        padding-left: 10px;
+      }
+      .signup {
+        width: 230px;
+        margin-top: 10px;
+        height: 35px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: calibri;
+        font-size: 15px;
+        color: white;
+        background-color: rgb(76, 121, 243);
+      }
+    </style>
+  </head>
+  <body>
+    <input class="Name" type="text" placeholder="Name" />
+    <input class="Email" type="text" placeholder="Email" />
+    <p>
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+    <img class="Google" src="R.png" />
+    <input
+      class="searchbar"
+      type="search"
+      placeholder="Search Google or type a URL"
+    />
+    <input type="text" class="firstname" placeholder="First name" />
+    <input type="text" class="lastname" placeholder="Last Name" />
+    <input type="text" class="emailline" placeholder="Email" />
+    <button class="signup">Sign Up</button>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.colorbox{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 200px;
+    animation: colors 2s infinite;
+  }
+  @keyframes colors{
+    0%{
+    background-color:red
+    }
+   
+    25%{
+        background-color: green;
+    }
+   
+    50%{
+        background-color: yellow;
+    }
+   
+    75%{
+        background-color: pink;
+    }
+  
+    100%{
+        background-color: aqua;
+    }
+  }

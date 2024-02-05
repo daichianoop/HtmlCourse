@@ -1,0 +1,161 @@
+.Catt{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.Catt1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Catt2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-bottom: 00px;
+}
+
+
+
+
+.sb1{
+    border-radius :8px; 
+    margin-top: 100px;
+    height: 40px;
+    width: 180px;
+    margin-left: 12px;
+    padding-left: 8px;
+    border-width: 1px;
+    border-color: rgb(179, 179, 179);
+    border-width: 1.5px;
+}
+
+
+
+
+.sb2{
+    margin-top: 100px;
+
+    border-radius :20px; 
+    padding-left: 10px;
+    height: 40px;
+    width: 400px;
+    margin-left: 12px;
+    padding-left: 20px;
+    border: none;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s;
+}
+.sb2:hover{
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.email{
+    font-family: sans-serif;
+    color: rgb(114, 114, 114);
+    margin-bottom: 6px;
+}
+.sb3{
+    border-radius :6px; 
+    padding-left: 10px;
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    transition: background-color 3s
+}
+.sb3:hover{
+    background-color: antiquewhite;
+}
+.pp{
+    font-family: sans-serif;
+    color: rgb(114, 114, 114);
+
+}
+.AgreeJoin{
+    height: 40px;
+    width: 380px;
+    background-color:  rgb(10, 102, 194);
+    color: white;
+    border-radius: 20px; 
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+    transition: opacity 0.2s;
+}
+.AgreeJoin:hover{
+    opacity: 0.9;
+}
+.AgreeJoin:active{
+    opacity: 1;
+}
+
+
+.Catt3{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+    vertical-align: middle;
+    margin-right: 0px;
+    transition: 0.2s;
+    margin-bottom: 1000px;
+}
+.Catt3:hover{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.happening{ 
+    border-radius :20px; 
+    padding-left: 10px;
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    vertical-align: middle;
+    font-family: sans-serif;
+    margin-bottom: 1000px;
+}
+.Tweet{
+    background-color: rgb(80, 142, 223);
+    color: whitesmoke;
+    margin-left: 4px;
+    height: 40px;
+    width: 74px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px ;
+    margin-right: 8px;
+    transition: box-shadow 0.2s;
+    vertical-align: middle;
+    transition: background-color 0.2s;
+    margin-bottom: 1000px;
+
+   }
+   .Tweet:hover{
+    background-color: rgb(23, 101, 203);
+   }
+   .Tweet:active{
+    background-color: black;
+   }
+
+
+
+
+
+   .me{
+    text-align: center;
+    font-family: impact;
+    font-size: 100px;
+   }
