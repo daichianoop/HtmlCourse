@@ -43,11 +43,11 @@
 }
 .f2r {
   background-color: #00000070;
-  width: 537px;
+  width: 618.5px;
 }
 .f2l {
   background-color: #00000070;
-  width: 700px;
+  width: 618.5px;
 }
 .educon,.skillcon{
     margin: 0px;
@@ -65,10 +65,9 @@
     justify-content: space-between;
 }
 .flex-3{
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #00000070;
+  margin: 10px 0px;
     display: flex;
+    justify-content: space-between;
 }
 .s1 div{
     padding: 2px;
@@ -77,4 +76,72 @@
 .s1 div:hover{
     background-color: rgba(0, 0, 0, 0.142);
     border-radius: 4px;
+}
+.exp{
+  background-color: #00000070;
+  width: 700px;
+  padding: 10px;
+}
+.projects{
+  background-color: #00000070;
+  width: 497px;
+  padding: 10px;
+}
+.task{
+  line-height: 25px;
+}
+.t1{
+ font-size: 17px;
+}
+.wexp1{
+transition: background-color 0.3s;
+padding: 7px 10px;
+}
+.wexp1:hover{
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.142) ;
+}
+.project1{
+  display: flex;
+  padding-right: 50px;
+  flex-direction: column;
+  margin: 15px 10px;
+}
+
+.projectbutt{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 480px;
+  margin-top: 3px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+}
+.projectbutt:hover{
+  background-color: rgba(0, 0, 0, 0.406);
+  cursor: pointer;
+}
+.projectbutt:active{
+  background-color:#a9a29b;
+}
+.websites{
+  margin-top: 10px;
+}
+.butt1
+{
+  margin-top: 3px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+}
+.butt1:hover{
+  background-color: rgba(0, 0, 0, 0.142);
+  cursor: pointer;
+}
+.butt1:active{
+  background-color: lightgreen;
 }
