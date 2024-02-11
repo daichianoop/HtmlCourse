@@ -14,7 +14,7 @@
 }
 .flex-1 {
   padding: 10px;
-  background-color: #00000070;
+  background-color: #00000089;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,11 +42,11 @@
   justify-content: space-between;
 }
 .f2r {
-  background-color: #00000070;
+  background-color: #070707a5;
   width: 618.5px;
 }
 .f2l {
-  background-color: #00000070;
+  background-color: #00000081;
   width: 618.5px;
 }
 .educon,.skillcon{
@@ -57,7 +57,7 @@
     margin-top: 7px;
     line-height: 25px;
     padding: 0px 20px;
-    font-size: 18px;
+    font-size: 17.5px;
     font-weight: bold;
 }
 .skillsec{
@@ -65,7 +65,7 @@
     justify-content: space-between;
 }
 .flex-3{
-  margin: 10px 0px;
+   margin: 10px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -78,12 +78,12 @@
     border-radius: 4px;
 }
 .exp{
-  background-color: #00000070;
+  background-color: #0000005a;
   width: 700px;
   padding: 10px;
 }
 .projects{
-  background-color: #00000070;
+  background-color: #00000086;
   width: 497px;
   padding: 10px;
 }
@@ -144,4 +144,51 @@ padding: 7px 10px;
 }
 .butt1:active{
   background-color: lightgreen;
+}
+.langflex{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+.languages{
+  margin-top: 10px;
+  background-color: #00000070;
+  padding :10px;
+}
+.lan{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.prof{
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 5px;
+}
+.blank{
+  margin-top: 10px;
+  width: 516px;
+  height: 80px;
+  background-color: #000000c0;
+}
+.flex-4{
+  margin: 10px 0px;
+  display: flex;
+  background-color: #00000070;
+}
+.awards{
+  padding:10px;
+}
+.flex-5{
+  margin: 10px 0px;
+  padding: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00000080;
+}
+.langflex:hover{
+  background-color: rgba(0, 0, 0, 0.142);
+  border-radius: 4px;
 }
