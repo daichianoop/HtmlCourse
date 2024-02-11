@@ -14,7 +14,7 @@
 }
 .flex-1 {
   padding: 10px;
-  background-color: #00000089;
+  background-color: #00000080;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,11 +42,11 @@
   justify-content: space-between;
 }
 .f2r {
-  background-color: #070707a5;
+  background-color: #00000080;
   width: 618.5px;
 }
 .f2l {
-  background-color: #00000081;
+  background-color: #00000080;
   width: 618.5px;
 }
 .educon,.skillcon{
@@ -78,12 +78,12 @@
     border-radius: 4px;
 }
 .exp{
-  background-color: #0000005a;
+  background-color: #00000090;
   width: 700px;
   padding: 10px;
 }
 .projects{
-  background-color: #00000086;
+  background-color: #00000090;
   width: 497px;
   padding: 10px;
 }
