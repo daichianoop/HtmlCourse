@@ -1,0 +1,326 @@
+.l1 {
+    width: 500px;
+  }
+  .l2 img {
+    width: 200px;
+    margin-right: 100px;
+    border: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 50%;
+    border-width: 6px;
+  }
+  .l3 {
+    width: 350px;
+    justify-content: space-between;
+  }
+  .flex-1 {
+    margin-top: 25px;
+    padding: 10px;
+    background-color:#c7a64371;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+  }
+  .container img {
+    width: 28px;
+    padding-right: 7px;
+    
+  }
+  .container {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 4px 5px;
+    margin-bottom: 5px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    transition: background-color 0.2s;
+  }
+  .container:hover {
+    background-color: rgba(0, 0, 0, 0.142);
+    border-radius: 4px;
+  }
+  .flex-2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .f2r {
+    background-color: #fc9d4f59;
+    width: 618.5px;
+    border-radius: 6px;
+  }
+  .f2l {
+    background-color: #fc9d4f59;
+    width: 618.5px;
+    border-radius: 6px;
+  }
+  .educon,.skillcon{
+      margin: 0px;
+      padding: 10px;
+  }
+  .s1{
+      margin-top: 7px;
+      line-height: 25px;
+      padding: 0px 20px;
+      font-size: 17.5px;
+      font-weight: bold;
+  }
+  .skillsec{
+      display: flex;
+      justify-content: space-between;
+  }
+  .flex-3{
+     margin: 10px 0px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .s1 div{
+      padding: 2px;
+      transition: background-color 0.4s;
+  }
+  .s1 div:hover{
+      background-color: rgba(0, 0, 0, 0.142);
+      border-radius: 4px;
+  }
+  .exp{
+    background-color:   #fc9d4f59;
+    width: 700px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .projects{
+    background-color: #fc9d4f59;
+    width: 497px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .task{
+    line-height: 25px;
+  }
+  .t1{
+   font-size: 17px;
+  }
+  .wexp1{
+  transition: background-color 0.3s;
+  padding: 7px 10px;
+  }
+  .wexp1:hover{
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.142) ;
+  }
+  .project1{
+    display: flex;
+    padding-right: 50px;
+    flex-direction: column;
+    margin: 15px 10px;
+  }
+  
+  .projectbutt{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 480px;
+    margin-top: 3px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+  }
+  .projectbutt:hover{
+    background-color: rgba(0, 0, 0, 0.406);
+    cursor: pointer;
+  }
+  .projectbutt:active{
+    background-color:#a9a29b;
+  }
+  .websites{
+    margin-top: 10px;
+  }
+  .butt1
+  {
+    margin-top: 3px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+  }
+  .butt1:hover{
+    background-color: rgba(0, 0, 0, 0.142);
+    cursor: pointer;
+  }
+  .butt1:active{
+    background-color: lightgreen;
+  }
+  .langflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  .languages{
+    margin-top: 10px;
+    background-color: #00000080;
+    padding :10px;
+  }
+  .lan{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .prof{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  .blank{
+    margin-top: 10px;
+    width: 516px;
+    height: 80px;
+    background-color: #00000080;
+  }
+  .flex-4{
+    margin: 10px 0px;
+    display: flex;
+    background-color: #c7a64371;
+    border-radius: 6px;
+  }
+  .awards{
+    padding:10px;
+  }
+  .flex-5{
+    margin: 10px 0px;
+    padding: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c7a64371;
+    border-radius: 6px;
+  }
+  .langflex:hover{
+    background-color: rgba(0, 0, 0, 0.142);
+    border-radius: 4px;
+  }
+  .haw{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+  .honours{
+    padding-bottom: 7px;
+    font-size: 18px;
+  }
+  .awards1{
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  .awards1:hover{
+    background-color: rgba(0, 0, 0, 0.142);
+    border-radius: 4px;
+  }
+  .mem{
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    padding: 5px 10px;
+  }
+  .mem:hover{
+    background-color: rgba(0, 0, 0, 0.142);
+    border-radius: 4px;
+  }
+  .photo img{
+    width: 400px;
+    transition: width 0.25s;
+    border: solid;
+    border-radius: 6px;
+  }
+  .photo1 img{
+    width: 700px;
+    transition: width 0.25s;
+    border: solid;
+    border-radius: 6px;
+  }
+  .photo2 img{
+    width: 600px;
+    transition: width 0.25s;
+    border: solid;
+    border-radius: 6px;
+  }
+  .photo img:hover{
+    width: 410px;
+  }
+  .photo1 img:hover{
+    width: 710px;
+  }
+  .photo2 img:hover{
+    width: 610px;
+  }
+  .img1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 5px 5px;
+
+  }
+  .img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 0px;
+    padding: 5px 5px;
+  }
+  .img3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0px 0px;
+    padding: 5px 5px;
+  }
+  .flex-6{
+    background-color:#f1870553;
+    border-radius: 6px;
+    margin: 20px 0px;
+    padding: 5px 10px;
+  }
+  .bhasha{
+    margin-top: 10px ;
+    padding: 10px;
+    padding-right: 30px;
+    background-color: #fc9d4f59;
+    border-radius: 6px;
+  }
+  .bhashacontainer{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .aiseimg img{
+    width: 350px;
+  }
+  .aiseimg{
+    margin-top: 10px ;
+    padding: 10px;
+    background-color:#c7a64358;
+    border-radius: 6px;
+display: flex;
+justify-content: center;
+  }
+  .warning img{
+    width: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+ .warning{
+    background-color: rgba(0, 0, 0, 0.676);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    color: rgba(203, 203, 54, 0.954);
+  }
